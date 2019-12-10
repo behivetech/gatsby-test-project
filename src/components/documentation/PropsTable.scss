@@ -1,0 +1,21 @@
+.props-table {
+    td {
+        vertical-align: top;
+    }
+
+    &__td-name {
+        color: rgb(17, 147, 154);
+    }
+    &__td-required {
+        color: rgb(255, 76, 34);
+    }
+    &__td-optional {
+        color: #c6c6c6;
+    }
+    &__td-default {
+        color: rgb(236, 171, 32);
+    }
+    &__td-no-default {
+        color: #c6c6c6;
+    }
+}

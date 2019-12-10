@@ -1,0 +1,109 @@
+$font: 'Ubuntu', 'Helvetica', 'Arial', sans-serif;
+$title: 1.3rem;
+$hint-txt: .7rem;
+$input-txt: .9rem;
+$label-txt: .8rem;
+$font-weight-regular: 300;
+$font-weight-medium: 400;
+$font-small-nunito: 500 14px 'Nunito';
+
+
+@mixin headline-1 {
+    font-size: 6rem;
+    letter-spacing: -1.5;
+    font-family: $font;
+    font-weight: 400;
+}
+
+@mixin headline-2 {
+    font-size: 3.75rem;
+    letter-spacing: -.5;
+    font-family: $font;
+    font-weight: 300;
+}
+
+@mixin headline-3 {
+    font-size: 3rem;
+    letter-spacing: 0;
+    font-family: $font;
+    font-weight: 400;
+}
+
+@mixin headline-4 {
+    font-size: 2.125rem;
+    letter-spacing: .25;
+    font-family: $font;
+    font-weight: 400;
+}
+
+@mixin headline-5 {
+    font-size: 1.5rem;
+    letter-spacing: 0;
+    font-family: $font;
+    font-weight: 400;
+}
+
+@mixin headline-6 {
+    font-size: 1.25rem;
+    letter-spacing: 0;
+    font-family: $font;
+    font-weight: 500;
+}
+
+@mixin body-1 {
+    font-size: 1rem;
+    letter-spacing: .5;
+    font-family: $font;
+    font-weight: 400;
+}
+
+@mixin body-2 {
+    font-size: .875rem;
+    letter-spacing: .25;
+    font-family: $font;
+    font-weight: 400;
+}
+
+@mixin subtitle-1 {
+    font-size: 1rem;
+    letter-spacing: .15;
+    font-family: $font;
+    font-weight: 400;
+}
+
+@mixin subtitle-2 {
+    font-size: .875rem;
+    letter-spacing: .1;
+    font-family: $font;
+    font-weight: 500;
+}
+
+@mixin button {
+    font-size: .875rem;
+    letter-spacing: 1.25;
+    font-family: $font;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+@mixin caption {
+    font-size: .75rem;
+    letter-spacing: .4;
+    font-family: $font;
+    font-weight: 400;
+}
+
+@mixin overline {
+    font-size: .75rem;
+    letter-spacing: 2;
+    font-family: $font;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+:export {
+    fontFamily: $font;
+    fontWeightNormal: $font-weight-regular;
+    fontWeightMedium: $font-weight-medium;
+}

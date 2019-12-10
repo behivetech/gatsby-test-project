@@ -1,0 +1,16 @@
+.links {
+    background-color: #ececec;
+
+    &__link {
+        text-transform: capitalize;
+        display: block;
+    }
+
+    h3 {
+        text-transform: capitalize
+    }
+
+    hr {
+        margin: 10px 0;
+    }
+}
